@@ -1,4 +1,4 @@
-# <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.png" alt="PyroDetect Logo" width="30" style="vertical-align: middle;"/> PyroDetect: Enhanced Wildfire Detection with Advanced Deep Learning
+# <img src="https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/PyroDetect.png" alt="PyroDetect Logo" width="30" style="vertical-align: middle;"/> PyroDetect: Enhanced Wildfire Detection with Advanced Deep Learning
 
 ## Overview
 
@@ -82,27 +82,27 @@ The **PyroDetect** model integrates:
 1. **Confusion Matrix**
    The confusion matrix highlights the high number of true positives and true negatives, demonstrating the model's reliability in wildfire detection.
 
-   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Confusion%20Matrix.png" width="500"/>
+   <img src="https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/Confusion%20Matrix.png" width="500"/>
 
 2. **Training Accuracy**
    The PyroDetect model's training accuracy started at 50% and steadily increased, reaching 98% by the final epoch.
 
-   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Accuracy.png" width="500"/>
+   <img src="https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/Training%20Accuracy.png" width="500"/>
 
 3. **Training Loss**
    The PyroDetect model's training loss started at 1.6 and gradually decreased to 0.07, indicating effective learning during training. 
 
-   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Loss.png" width="500"/>
+   <img src="https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/Training%20Loss.png" width="500"/>
 
 4. **ROC Curve**
    The ROC curve, with an AUC of 0.993, underscores the model's ability to accurately distinguish between wildfire and non-wildfire images.
 
-   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/ROC.png" width="500"/>
+   <img src="https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/ROC.png" width="500"/>
 
 5. **Precision-Recall Curve**
    The precision-recall curve, with an area of 0.99, showcases the model's strong capability to maintain high precision and recall across different thresholds.
 
-   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Recall.png" width="500"/>
+   <img src="https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/Recall.png" width="500"/>
 
 ---
 
@@ -131,7 +131,7 @@ We would like to express our sincere gratitude to:
 This project is released for academic and research purposes only.  
 You can view and access the source code from our repository, but any commercial use or distribution requires prior permission.  
 
-🔗 **[PyroDetect Source Code](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.ipynb)**  
+🔗 **[PyroDetect Source Code](https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/PyroDetect.ipynb)**  
 
 For inquiries regarding licensing and usage, please contact the authors.
 
