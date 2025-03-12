@@ -1,4 +1,4 @@
-# <img src="https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/PyroDetect.png" alt="PyroDetect Logo" width="30" style="vertical-align: middle;"/> PyroDetect: Enhanced Wildfire Detection with Advanced Deep Learning
+# <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.png" alt="PyroDetect Logo" width="30" style="vertical-align: middle;"/> PyroDetect: Enhanced Wildfire Detection with Advanced Deep Learning
 
 ## Overview
 
@@ -8,11 +8,13 @@ The project, **PyroDetect**, introduces a novel AI-powered wildfire detection sy
 
 ---
 
-## Authors
+## Contributors
 
-- **Manvendra Singh** [LinkedIn](https://www.linkedin.com/in/manvendrasingh09/)
-- **Kshitiz Bhargava** [LinkedIn](https://in.linkedin.com/in/kshitiz-bhargava)
-- **Abeer Mathur** [LinkedIn](https://in.linkedin.com/in/abeermathur)
+👨‍💻 **Manvendra Singh** - [Linkedin](https://www.linkedin.com/in/manvendrasingh09)  [Github](https://github.com/manvendrasingh09)
+
+👨‍💻 **Kshitiz Bhargava** - [Linkedin](https://www.linkedin.com/in/kshitiz-bhargava)  [Github](https://github.com/Kshitiz-b)
+
+👨‍💻 **Abeer Mathur** - [Linkedin](https://www.linkedin.com/in/abeermathur)  [Github](https://github.com/AbeerMathur)
 
 > Affiliation: Department of Software Systems, School of Computer Science & Engineering, Vellore Institute of Technology, India.  
 > Contact Emails: m.s.jaunpur@gmail.com, kshitizb168@gmail.com, abeermathur17@gmail.com
@@ -82,37 +84,64 @@ The **PyroDetect** model integrates:
 1. **Confusion Matrix**
    The confusion matrix highlights the high number of true positives and true negatives, demonstrating the model's reliability in wildfire detection.
 
-   <img src="https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/Confusion%20Matrix.png" width="500"/>
+   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Confusion%20Matrix.png" width="500"/>
 
 2. **Training Accuracy**
    The PyroDetect model's training accuracy started at 50% and steadily increased, reaching 98% by the final epoch.
 
-   <img src="https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/Training%20Accuracy.png" width="500"/>
+   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Accuracy.png" width="500"/>
 
 3. **Training Loss**
    The PyroDetect model's training loss started at 1.6 and gradually decreased to 0.07, indicating effective learning during training. 
 
-   <img src="https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/Training%20Loss.png" width="500"/>
+   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Loss.png" width="500"/>
 
 4. **ROC Curve**
    The ROC curve, with an AUC of 0.993, underscores the model's ability to accurately distinguish between wildfire and non-wildfire images.
 
-   <img src="https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/ROC.png" width="500"/>
+   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/ROC.png" width="500"/>
 
 5. **Precision-Recall Curve**
    The precision-recall curve, with an area of 0.99, showcases the model's strong capability to maintain high precision and recall across different thresholds.
 
-   <img src="https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/Recall.png" width="500"/>
+   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Recall.png" width="500"/>
 
 ---
 
-## [Docker Implementation](https://hub.docker.com/r/kshitizb/pyrodetect)
+## Run Locally with [Docker](https://hub.docker.com/r/kshitizb/pyrodetect)
 
-To deploy **PyroDetect** using Docker, follow these steps:
+### **1. Pull the Image**
+```sh
+docker pull kshitizb/pyrodetect
+```
 
-1. Pull the Docker image:
-   ```bash
-   docker pull manvendrasingh09/pyrodetect
+### **2. Run the Container**
+```sh
+docker run -p 8020:8020 kshitizb/pyrodetect
+```
+Then open: **http://localhost:8020/**
+
+### **3. Access the API**
+Once the container is running, open a browser and go to:
+
+```
+http://<your-server-ip>:8020
+```
+
+Or test via **FastAPI interactive docs**:
+
+```
+http://<your-server-ip>:8020/docs
+```
+
+---
+
+## **Endpoints**
+| Method  | Endpoint       | Description |
+|---------|---------------|-------------|
+| **GET** | `/`           | Homepage - Image Upload Form |
+| **POST** | `/upload/`   | Upload and classify an image |
+
 
 ---
 
@@ -131,7 +160,7 @@ We would like to express our sincere gratitude to:
 This project is released for academic and research purposes only.  
 You can view and access the source code from our repository, but any commercial use or distribution requires prior permission.  
 
-🔗 **[PyroDetect Source Code](https://github.com/AbeerMathur/PyroDetect/blob/main/Resources/PyroDetect.ipynb)**  
+🔗 **[PyroDetect Source Code](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.ipynb)**  
 
 For inquiries regarding licensing and usage, please contact the authors.
 
